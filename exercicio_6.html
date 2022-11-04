@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 6 </title>
+</head>
+<body> 
+    <div id="total"></div>
+    <script>
+        let nomeLoja = prompt (" Nome da Loja  ")
+        let mes1 = prompt ("fechamento de Janeiro ")
+        let mes2 = prompt ("fechamento de Fevevreiro")
+        let mes3 = prompt ("fechamento de  Março ")
+        let mes4 = prompt ("fechamento de Abril ")
+        let mes5 = prompt ("fechamento de Maio ")
+        let mes6 = prompt ("fechamento de Julho")
+        let mes7 = prompt("fechamento de Junho")
+        let mes8 = prompt("fechamento de Agosto")
+        let mes9 = prompt ("fechamento de Setenbro")
+        let mes10 = prompt ("fechamento de Outubro")
+        let mes11 = prompt ("fechamento de Novenbro")
+        let mes12 = prompt("fechamento de Dezenbro")
+        
+        let primeiroSemetre = Number(mes1) + Number(mes2) + Number(mes3) + Number(mes4) +Number(mes5) + Number(mes6)
+        let segundoSemestre = Number(mes7) + Number(mes8) + Number(mes9) + Number(mes10) + Number(mes11) + Number(mes12)
+
+        document.getElementById ("total").innerHTML = "loja:" + nomeLoja  +"<br>primeiroSemetre:"+ primeiroSemetre + "<br>segundoSemestre:"+ segundoSemestre
+    </script>
+</body>
+</html>

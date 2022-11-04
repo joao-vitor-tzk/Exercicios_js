@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5 </title>
+</head>
+<body>
+    <di id="total"></di>
+
+    <script>
+        let hora = prompt("quantidade de horas")
+        let minutos = prompt ("quantidade de minutos ")
+        let segundos = prompt ("quantidos de segundos")
+
+        let totaldeSegundos = Number(( hora*360)) + Number(( minutos*60)) + Number(segundos)
+
+
+
+        document.getElementById ("total").innerHTML = "hora " + hora + ":" + minutos + ":"+ segundos + "<br>totaldeSegundos" + totaldeSegundos
+    </script>
+    
+</body>
+</html>

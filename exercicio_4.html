@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+<body>
+    <div id="total"></div>
+
+    <script>
+        let aluno = prompt("Nome do aluno ")
+        let diciplina = prompt (" Nome da diciplina ")
+        let truma = prompt ("Qaul a truma ")
+        let nota1 = Number (prompt("Primeira nota "))
+        let nota2 = Number (prompt("Segunda  nota "))
+        let nota3 = Number (prompt("Treciera  nota "))
+        
+
+        let media = (nota1 + nota2 + nota3 ) /3
+
+        document.getElementById ("total").innerHTML = "Aluno:" + aluno + "diciplina"+ diciplina + "truma "+ truma +"<br>Nota1:" + nota1 + "<br>Nota2:" + nota2 + " <br>Nota3:"+ nota3 + "<br>MEDIA" + media
+
+
+    </script>
+
+    
+</body>
+</html>
